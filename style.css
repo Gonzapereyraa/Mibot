@@ -1,0 +1,441 @@
+/* --- Reset de estilos --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+  }
+  
+  h1, h2, h3, h4 {
+    font-weight: 700;
+  }
+  
+  /* --- Header --- */
+  body {
+    background-image: url('https://images.pexels.com/photos/8386369/pexels-photo-8386369.jpeg');
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegura que la imagen cubra toda la altura de la ventana */
+    margin: 0; /* Elimina márgenes predeterminados */
+}
+
+.hero {
+    background: url('https://images.pexels.com/photos/8386369/pexels-photo-8386369.jpeg') center center/cover no-repeat;
+    color: white; /* Ajusta el color del texto para que sea legible */
+    padding: 100px 0; /* Espaciado para la sección hero */
+    text-align: center;
+}
+
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #004d77;
+    color: #fff;
+  }
+  
+  header .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  header nav a:hover {
+    color: #ff6f61;
+  }
+  
+  /* --- Hero Section --- */
+  .hero {
+    background: url('https://via.placeholder.com/1500x800/004d77/ffffff?text=Transforma+Tu+Atencion') center center/cover no-repeat;
+    padding: 8rem 5%;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .boton {
+    padding: 0.8rem 2rem;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+  }
+  
+  .boton:hover {
+    background-color: #d95846;
+  }
+  
+  /* --- Servicios Section --- */
+  .contenido {
+    padding: 4rem 5%;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #004d77;
+  }
+  
+  .tarjetas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .tarjeta {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1.5rem;
+    padding: 2rem;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tarjeta:hover {
+    transform: translateY(-10px);
+  }
+  
+  .tarjeta img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1rem;
+  }
+  
+  .tarjeta h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tarjeta p {
+    color: #555;
+  }
+  
+  .tarjeta .precio {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #004d77;
+    font-weight: bold;
+  }
+  
+  .tarjeta button {
+    padding: 0.8rem 1.5rem;
+    background-color: #004d77;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tarjeta button:hover {
+    background-color: #ff6f61;
+  }
+  
+  .beneficios {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .beneficio {
+    width: 250px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    border-radius: 10px;
+  }
+  
+  .beneficio h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .beneficio p {
+    color: #777;
+  }
+  
+  .tarjetas.planes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+  
+  .tarjeta.plan {
+    width: 300px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tarjeta.plan:hover {
+    transform: translateY(-10px);
+  }
+  
+  .tarjeta.plan.destacado {
+    background-color: #ff6f61;
+    color: #fff;
+  }
+  
+  .tarjeta.plan h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tarjeta.plan ul {
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+  
+  .tarjeta.plan li {
+    margin: 0.5rem 0;
+  }
+  
+  .tarjeta.plan .precio {
+    font-size: 2.2rem;
+    margin: 1.5rem 0;
+    color: #004d77;
+    font-weight: bold;
+  }
+  
+  .tarjeta.plan button {
+    padding: 1rem 2rem;
+    background-color: #004d77;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tarjeta.plan button:hover {
+    background-color: #d95846;
+  }
+  
+  /* --- Contact Form --- */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input, form textarea {
+    margin: 1rem 0;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  form button {
+    padding: 1rem;
+    background-color: #004d77;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #ff6f61;
+  }
+  
+  /* --- Footer --- */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  /* --- WhatsApp Button --- */
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    padding: 1rem;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  }
+  /* Estilos comunes para la sección de inicio de sesión y registro */
+  .login-register {
+    background: url('https://images.pexels.com/photos/5614124/pexels-photo-5614124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+    backdrop-filter: blur(3px);
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.form-container {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(8px);
+    border-radius: 16px;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease;
+    transition: transform 0.3s ease;
+  }
+  
+  .form-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .form-container input,
+  .form-container button {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .form-container input {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container input:focus {
+    background-color: #e0e0e0;
+    outline: none;
+  }
+  
+  .form-container button {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .form-container button:hover {
+    background: linear-gradient(135deg, #5a67d8, #6b46c1);
+    transform: scale(1.03);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #666;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+  .whatsapp-btn:hover {
+    background-color: #128c7e;
+  }
+  
+  
